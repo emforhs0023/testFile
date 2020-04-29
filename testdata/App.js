@@ -29,7 +29,7 @@ import firestore from '@react-native-firebase/firestore';
 
 const App = () => {
 	const [ todo, setTodo ] = useState('');
-	const [ test, setTest ] = useState('');
+	const [ testData, setTestData ] = useState('');
 	const ref = firestore().collection('todos');
 
 	// const usersCollection = firestore().collection('todos');
